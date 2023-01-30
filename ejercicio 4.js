@@ -18,7 +18,10 @@ function encontrarElemento(array,elemento){
     }
 }
 
-var encontrar = 100
+var encontrar = 49
 
+console.log("========================================")
+console.log("Ejercicio 4")
+console.log("Arreglo de largo 100: " + arreglo)
 console.log(encontrarElemento(arreglo,encontrar))
 

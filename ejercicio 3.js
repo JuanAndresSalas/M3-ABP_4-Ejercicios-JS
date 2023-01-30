@@ -12,3 +12,8 @@ function encontrarDia(dia,arreglo){
 
 var diaEncontrado = encontrarDia(numDia,semana);
 
+console.log("========================================")
+console.log("Ejercicio 3")
+console.log("Arreglo semana: " + semana);
+console.log("Dia a buscar: " + numDia)
+console.log("Dia encontrado: " + diaEncontrado)

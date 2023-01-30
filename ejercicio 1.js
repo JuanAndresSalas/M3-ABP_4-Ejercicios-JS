@@ -9,6 +9,11 @@ function ejercicio1(largoArreglo){
         arreglo.push(control)
         control *= 2
     }    
+    return arreglo
 }
 
-ejercicio1()
+var largoArreglo = 10
+console.log("========================================")
+console.log("Ejercicio 1")
+console.log("Arreglo de largo " + largoArreglo)
+console.log(ejercicio1(largoArreglo))

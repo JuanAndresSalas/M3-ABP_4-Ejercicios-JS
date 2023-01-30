@@ -1,7 +1,12 @@
 /* Cree una función que dado un arreglo de números de largo 10 permita obtener el mayor
 número contenido en el arreglo */
 
-//Generador arreglo con numeros aleatorios
+
+
+/*Cree una función que dado un arreglo de números de largo 10 permita obtener el mayor
+número contenido en el arreglo */
+
+//Generador arreglo
 function numerosAleatoriosNoRepetidos(min, max, cantidad) {
     let numeros=[];          
             
@@ -17,19 +22,17 @@ function numerosAleatoriosNoRepetidos(min, max, cantidad) {
     }
     return numeros;
 }
-var arreglo = numerosAleatoriosNoRepetidos(1,999 ,10);
-// Fin generador de arreglo
 
-//Código tarea
-function compareNumbers(a, b) { //Funcion para ordenar arreglos de numeros en JS, se debe invocar como argumento de la funcion sort()
-    return a - b;
-  }
+var arreglo = numerosAleatoriosNoRepetidos(1,999 ,10);
+//fin generador arreglo
 
 function encontrarMayor(array){
-    array.sort(compareNumbers);
-    return array[array.length - 1]
+    return Math.max(...array)
 }
 
 
 var numMayor = encontrarMayor(arreglo)
-
+console.log("========================================")
+console.log("Ejercicio 2")
+console.log("Arreglo: " + arreglo);
+console.log("Numero Mayor: " + numMayor)

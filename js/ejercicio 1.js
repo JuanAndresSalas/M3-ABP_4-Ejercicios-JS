@@ -1,10 +1,11 @@
-var arreglo = [];
 
 function ejercicio1(largoArreglo){
-    for (let i = 1; i < largoArreglo; i *= 2) {
-        arreglo.push(i)
-        
-    }
+    let arreglo = [];
+    let control = 1;
+    for (let i = 0; i < largoArreglo ; i ++) {
+        arreglo.push(control)
+        control *= 2
+    }    
 }
-ejercicio1(5)
-console.log(arreglo)
+
+ejercicio1()
